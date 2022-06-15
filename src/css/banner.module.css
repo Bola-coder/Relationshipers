@@ -5,7 +5,7 @@
 }
 
 .banner__content {
-  margin-top: 30px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -32,15 +32,17 @@
 }
 
 .text button {
-  padding: 10px 20px;
+  padding: 15px 20px;
   font-size: 1rem;
   width: 200px;
   margin-top: 30px;
   font-weight: 700;
   background-color: #fff;
   /* border: 1px soild rgb(101, 101, 101); */
+  border: none;
   border-radius: 33px;
   cursor: pointer;
+  box-shadow: 0px 2px 6px 3px rgb(104, 97, 97);
 }
 
 .text button:hover {
