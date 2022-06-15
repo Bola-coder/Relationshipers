@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:ital@0;1&display=swap");
+.banner {
+  padding: 10px;
+  background-color: #e5e5e5;
+}
+
+.banner__content {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text {
+  flex-basis: 50%;
+}
+
+.text h1 {
+  color: #414141;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.25rem;
+  line-height: 28px;
+}
+
+.text button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  width: 200px;
+  margin-top: 30px;
+  font-weight: 700;
+  background-color: #fff;
+  /* border: 1px soild rgb(101, 101, 101); */
+  border-radius: 33px;
+  cursor: pointer;
+}
+
+.text button:hover {
+  background-color: #25f86d;
+  color: #fff;
+}
+
+.image {
+  flex-basis: 30%;
+}
+
+.image img {
+  width: 400px;
+}
