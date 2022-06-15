@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:ital@0;1&display=swap");
 .banner {
   padding: 10px;
   background-color: #e5e5e5;
@@ -46,7 +45,7 @@
 }
 
 .text button:hover {
-  background-color: #25f86d;
+  background-color: #52bc76;
   color: #fff;
 }
 
