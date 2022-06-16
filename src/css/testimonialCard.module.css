@@ -1,0 +1,35 @@
+.testimonialCard {
+  margin-top: 5%;
+}
+
+.testimonies {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.testimony {
+  padding: 10px;
+  width: 300px;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.testimony img {
+  margin-bottom: 20px;
+}
+
+.testimony h5 {
+  font-weight: 500;
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+}
+
+.testimony p {
+  font-size: 1rem;
+}
+
+.testimony:nth-child(2) {
+  margin-top: 7%;
+}

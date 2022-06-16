@@ -1,0 +1,15 @@
+.testimonial {
+  margin-top: 10%;
+  padding: 20px;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.testimonial h3 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 28px;
+  text-align: center;
+  color: #4d4d4d;
+  margin-bottom: 7%;
+}
