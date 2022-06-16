@@ -19,7 +19,7 @@ const testimonies = [
     name: "Vannesa Grey",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin malesuada elit quis arcu sollicitudin, eu bibendum urna tristique. ",
-    image: Image.janeImage,
+    image: Image.vannesaImage,
   },
 ];
 
