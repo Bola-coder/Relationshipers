@@ -1,0 +1,14 @@
+.latest__post {
+  margin-top: 5%;
+  padding: 20px;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.latest__post h3 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 28px;
+  text-align: center;
+  color: #4d4d4d;
+}

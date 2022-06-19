@@ -2,6 +2,7 @@ import Nav from "./components/Navbar";
 import Banner from "./components/Banner";
 import Offer from "./components/Offer";
 import Testimonial from "./components/Testimonial";
+import LatestPost from "./components/Latest.post";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Banner />
       <Offer />
       <Testimonial />
+      <LatestPost />
     </div>
   );
 }

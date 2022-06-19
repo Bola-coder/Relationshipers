@@ -1,0 +1,38 @@
+.blog__modal {
+  background-color: #ffffff;
+  max-width: 908px;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 20%;
+  z-index: 10;
+}
+.blogs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.blog {
+  width: 250px;
+  font-family: "Inter";
+  font-style: normal;
+  line-height: 21px;
+  cursor: pointer;
+}
+.blog img {
+  width: 60%;
+}
+.blog h5 {
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.blog p {
+  font-size: 0.8rem;
+}
