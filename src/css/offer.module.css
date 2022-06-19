@@ -35,7 +35,7 @@
   width: 200px;
   font-size: 1.2rem;
   border: none;
-  border-radius: 26px;  
+  border-radius: 26px;
   color: #fff;
   background-color: #52bc76;
   cursor: pointer;
@@ -43,4 +43,8 @@
 
 .offer__content button:hover {
   opacity: 0.9;
+}
+
+.overlay {
+  /* opacity: 0.5; */
 }

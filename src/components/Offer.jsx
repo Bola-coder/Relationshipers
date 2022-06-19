@@ -3,15 +3,15 @@ import BlogModal from "./BlogModal";
 import style from "./../css/offer.module.css";
 
 const Offer = () => {
-  const [showModal, setSHowModal] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   const handleShowModal = () => {
-    setSHowModal((prev) => !prev);
+    setShowModal((prev) => !prev);
   };
+
+  console.log(showModal);
   return (
-    <section
-      className={`${style.offer} ${showModal ? style.overlay : ""}`}
-      onClick={showModal ? handleShowModal : ""}>
+    <section className={`${style.offer} ${showModal ? style.overlay : ""}`}>
       <div className={style.offer__content}>
         <h3>What we offer</h3>
         <p>
@@ -20,7 +20,9 @@ const Offer = () => {
         </p>
         <button onClick={handleShowModal}>Read More </button>
       </div>
-      {showModal && <BlogModal />}
+      <div style={{ position: "fixed" }} onClick={(e) => e.stopPropagation()}>
+        {showModal && <BlogModal handleShowModal={handleShowModal} />}
+      </div>
     </section>
   );
 };

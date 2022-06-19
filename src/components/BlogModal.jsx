@@ -1,7 +1,7 @@
 import React from "react";
 import blogs from "./../utils/blogList";
 import style from "./../css/blogModal.module.css";
-const BlogModal = ({showModal}) => {
+const BlogModal = ({handleShowModal}) => {
   return (
     <section className={style.blog__modal}>
       <div className={style.blogs}>

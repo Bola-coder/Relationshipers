@@ -2,12 +2,12 @@
   background-color: #ffffff;
   max-width: 908px;
   margin: 0 auto;
-  border-radius: 30px;
+  border-radius: 10px;
   padding: 20px;
   position: fixed;
   top: 0;
   left: 20%;
-  z-index: 10;
+  /* z-index: 10; */
 }
 .blogs {
   display: flex;
@@ -35,4 +35,8 @@
 
 .blog p {
   font-size: 0.8rem;
+}
+
+.blog:hover {
+  transform: scaleY(1.05);
 }
