@@ -1,0 +1,52 @@
+.about {
+  margin: 10% auto;
+  padding: 20px;
+  background: linear-gradient(
+    222.87deg,
+    rgba(82, 188, 118, 0.129) -147.03%,
+    rgba(37, 248, 109, 0) 75.93%
+  );
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.about__text {
+  padding: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  flex-basis: 45%;
+}
+
+.about__text h4 {
+  font-weight: 600;
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+  margin-bottom: 5%;
+}
+
+.about__text p {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.about__text button {
+  margin-top: 30px;
+  padding: 15px 20px;
+  width: 200px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 26px;
+  color: #fff;
+  background-color: #52bc76;
+  cursor: pointer;
+}
+
+.about__image {
+  width: 250px;
+  background: #9e686d;
+  border-radius: 50%;
+}
+
+.about__image img {
+  width: 200px;
+}
