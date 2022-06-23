@@ -1,0 +1,42 @@
+.joinUs {
+  margin-top: 10%;
+  padding: 20px;
+  font-family: "Inter";
+  font-style: normal;
+}
+.joinUs__text {
+  margin-left: 10%;
+  width: 400px;
+}
+.joinUs__text h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.joinUs__text p {
+  font-weight: 300;
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+}
+
+.joinUs__text input {
+  display: block;
+  width: 270px;
+  padding: 10px 12px;
+  font-size: 1.2rem;
+  border: 0;
+  border-radius: 20px;
+  box-shadow: 1px 1px 6px 2px rgb(128, 115, 115);
+}
+
+.joinUs__text button {
+  margin-top: 20px;
+  padding: 12px 15px;
+  width: 200px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 26px;
+  color: #fff;
+  background-color: #52bc76;
+  cursor: pointer;
+}

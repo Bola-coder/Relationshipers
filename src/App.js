@@ -4,6 +4,7 @@ import Offer from "./components/Offer";
 import Testimonial from "./components/Testimonial";
 import LatestPost from "./components/Latest.post";
 import About from "./components/About";
+import JoinUs from "./components/JoinUs";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Testimonial />
       <LatestPost />
       <About />
+      <JoinUs />
     </div>
   );
 }
