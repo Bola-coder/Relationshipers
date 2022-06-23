@@ -1,0 +1,54 @@
+.posts {
+  margin-top: 30px;
+  /* padding: 20px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.post {
+  width: 300px;
+  padding: 20px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  text-align: left;
+}
+
+.post img {
+  width: 70%;
+}
+
+.post h4 {
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.post p {
+  font-family: "Inter";
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.post button {
+  margin-top: 30px;
+  padding: 10px 12px;
+  width: 200px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 26px;
+  color: #438cfa;
+  background-color: #fff;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 2px rgb(53, 50, 50);
+}
+
+.post button:hover {
+  background-color: #438cfa;
+  color: #fff;
+}
+
+.post:hover {
+  transform: scale(1.1);
+}

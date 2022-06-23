@@ -8,6 +8,10 @@ import blogImageTwo from "./../images/blogImageTwo.png";
 import blogImageThree from "./../images/blogImageThree.png";
 import blogImageFour from "./../images/blogImageFour.png";
 import blogImageFive from "./../images/blogImageFive.png";
+import postImageOne from "./../images/postImageOne.png";
+import postImageTwo from "./../images/postImageTwo.png";
+import postImageThree from "./../images/postImageThree.png";
+import aboutImage from "./../images/aboutImage.png";
 
 const Image = {
   logo,
@@ -20,6 +24,10 @@ const Image = {
   blogImageThree,
   blogImageFour,
   blogImageFive,
+  postImageOne,
+  postImageTwo,
+  postImageThree,
+  aboutImage,
 };
 
 export default Image;

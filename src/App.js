@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import Offer from "./components/Offer";
 import Testimonial from "./components/Testimonial";
 import LatestPost from "./components/Latest.post";
+import About from "./components/About";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Offer />
       <Testimonial />
       <LatestPost />
+      <About />
     </div>
   );
 }
